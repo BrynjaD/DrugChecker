@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DrugChecker</title>
+	<link rel="stylesheet" href="css/drugCSS.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="icon" href="img/favicon.png">
+	<link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,900' rel='stylesheet' type='text/css'>
+	
+</head>
+    <div id="wrap">
+        <body>         
+            <div id="banner" class="container img-responsive"><img src="img/banner2.jpg">
+            <div class="imgCaption">DrugChecker</div>
+            </div>
+            <div id="drugForm" class="container-fluid form-inline">
+                <div class="formid row form-group">
+                    <label for="drugInput" class="drugLabel">Drug name:</label>
+                    <input type="text" id="drugInput" class="form-control" placeholder="Example: Adderall" required>
+                    <button id="btn-submit" class="btn btn-info">Add</button>
+                </div>
+            </div>
+            <div class="bothLists container">
+                <div class="row">
+                    <div id="drugList" class="col-md-6">
+                        <ul id="list" class="list-group"></ul>	
+                    </div>   
+                    <div class="intList col-md-6">
+                        <ul id="interaction-list" class="list-group"></ul>
+                    </div> 
+                </div>
+                <button id="checkDrug" class="btn btn-info">Check interactions!</button>      
+            </div>
+            <div id="push"></div>
+            </div>
+            
+            <div id="footer">
+                <div class="container">
+                    <p class="author muted credit">By: Brynja Dóra</p> <p class="school">Upplýsingatækniskólinn 2016</p>
+                </div>
+            </div>
+            
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script> 
+            <script src="js/drugs.js"></script>            
+        </body>
+    </div>
+</html>

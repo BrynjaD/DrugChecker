@@ -1,0 +1,130 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+
+body {
+	width: 100%;
+	background-color: #8ED1E8 !important;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -40px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 40px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media (max-width: 767px) {
+    #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+}
+
+
+#banner {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.imgCaption {
+	left:30%;
+	bottom: 35%;
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	/*background-color: rgba(255,0,0,0.7);*/
+    background-color: rgba(2,171,227,0.7);
+	padding-right: 40px;
+	padding-left: 40px;
+}
+
+#banner img {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#drugForm {
+	text-align: center;
+	height: 100px;
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#63b6db+0,309dcf+100;Blue+3D+%234 */
+	background: #63b6db; /* Old browsers */
+	background: -moz-linear-gradient(top,  #63b6db 0%, #309dcf 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #63b6db 0%,#309dcf 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #63b6db 0%,#309dcf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 ); /* IE6-9 */
+}
+
+.formid {
+    margin-top: 20px;
+}
+#drugInput {
+	background-color: #f2f2f2;
+	text-align: center;
+}
+
+.drugLabel {
+	color: #f2f2f2;
+	font-family: 'Slabo 27px', serif;
+	font-size: 27px;
+}
+
+button {
+    font-weight: bold !important;
+}
+
+.bothLists {
+	margin-top: 40px;
+}
+
+.intList {	
+	color: red;
+	text-align: center;
+}
+
+#footer {
+    font-family: 'Slabo 27px', serif;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b0d4e3+0,88bacf+100;Grey+3D+%233 */
+    background: #b0d4e3; /* Old browsers */
+    background: -moz-linear-gradient(top,  #b0d4e3 0%, #88bacf 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #b0d4e3 0%,#88bacf 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #b0d4e3 0%,#88bacf 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b0d4e3', endColorstr='#88bacf',GradientType=0 ); /* IE6-9 */
+
+}
+.author {
+    float: left;
+    margin-top: 10px;
+}
+
+.school {
+    float: right;
+    margin-top: 10px;
+}
